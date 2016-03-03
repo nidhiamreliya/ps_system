@@ -391,3 +391,20 @@ strong
 	text-align: center;
 	list-style-type: none;
 }
+.footer_link_bar1 ul li img
+{
+	margin-top: 4px;
+	height: 45px;
+	width: 50px;
+	float: left;
+	
+}
+.footer_link_bar1 ul li span
+{
+	margin-top: 4px;
+	float: right;
+}
+.footer_link_bar2
+{
+	
+}
