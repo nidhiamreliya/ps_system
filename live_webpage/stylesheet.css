@@ -1,14 +1,10 @@
-body
-{
-	padding: 0px 30px;	
-}
 .main_container
 {
-	width: 1230px;
-	
+	margin: 0 auto;
 	background-color: #EEEEEE;
-	overflow: hidden;
 	font-family: sans-serif;
+	margin: 0;
+	padding:0;
 }
 .clear
 {
@@ -17,7 +13,7 @@ body
 .header
 {
 	margin: auto;
-	height: 5%;
+	height: 60px;
 	padding: 15px 30px;
 }
 .logo_box
@@ -40,7 +36,8 @@ body
 	text-transform: uppercase;
 	display: inline;
 }
-ul {
+ul 
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,20 +46,62 @@ ul {
     font-weight: bolder;
     font-family: sans-serif;
 }
-
-li {
+li 
+{
     float: left;
 }
-
-li a {
+li a
+{
     display: inline-block;
     color: #605D65;
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
 }
-li a:hover {
+li a:hover 
+{
     background-color: #fff;
+}
+.dropbtn 
+{
+	 color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.header_menu 
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover 
+{
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown:hover .dropbtn 
+{
+    background-color: #3e8e41;
 }
 .banner_top
 {
@@ -72,12 +111,14 @@ li a:hover {
 .banner
 {
 	height: 630px;
-	float: left;
+	background-color: #fff;
+	margin-top: 20px
 }
-.banner_top img
+.banner_img1
 {
 	position: relative;
-	height: 513px;
+	height: 550px;
+	width: auto;
 }
 .banner_top span
 {
@@ -103,13 +144,20 @@ li a:hover {
 	text-transform: uppercase;
 	border-radius: 5px;
 }
+.video_img
+{
+	position: absolute;
+	height: 100px;
+	width:200px;
+	top: 450px;
+	left: 135px;
+}
 .banner_footer
 {
 	position: absolute;
-	height: 60px;
-	width: 100%;
-	padding: 33px 50px;
-		
+	height: 50px;
+   padding: 33px 50px;	
+   width: auto;
 }
 .banner_footer_text
 {
@@ -137,7 +185,7 @@ input[type="text"]
 	padding: 10px 10px;
 	border-radius: 5px;
 }
-.banner_footer button
+button
 {
 	height: 43px;
 	width: 100px;
@@ -161,6 +209,7 @@ input[type="text"]
 	font-weight: bold;
 	border-top: 10px solid;
 	border-color: #02CA83;
+	background-color: #fff;
 }
 .circle_block
 {
@@ -183,6 +232,7 @@ input[type="text"]
 .circle h3
 {
 	padding-top:33px;
+	font-size: 25px;
 }
 .dots_img
 {
@@ -197,6 +247,7 @@ input[type="text"]
 	margin: 0;
 	width: 410px;
 	margin: -2px;
+	height: 515px;
 }
 .middle_circle
 {
@@ -205,7 +256,7 @@ input[type="text"]
 	border-radius: 60px;
 	background-color: #02CA83;
 	position: absolute;
-	color: white;
+	color: #fff;
 	padding-left: 10px;
 	padding-top: 10px;
 	z-index: 5;
@@ -213,4 +264,162 @@ input[type="text"]
 	left: 576px;
 	text-transform: uppercase;
 	font-size: 25px;
+}
+.banner_text
+{
+	position: relative;
+}
+.side_banner1
+{
+	background-color: #fff;
+	border-top: 1px solid #000;
+	padding: 35px 100px;
+	height: 515px;
+}
+.banner_img2
+{
+	position: absolute;
+	float: left;
+	width:30%;
+}
+.banner_img2 img
+{
+	width: 550px;
+	height: 550px;
+}
+.banner_details
+{
+	position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 175px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.banner-content
+{
+	position: absolute;
+	top: 1284px;
+	left: 135px;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.banner_imges3
+{
+	height: 513px;
+	color: #fff;
+	position: relative;;
+}
+.b-content
+{
+	float:left;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	width: 100px;
+	margin-left: 50px;
+	
+}
+.b-image
+{
+	float: left;
+	margin-left: -3px;
+	margin-top: 44px;
+}
+.b-circle
+{
+	float:left;
+	height: 140px;
+	width: 140px;
+	border-radius: 70px;
+	background-color: #02CA83;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: -24px;
+	text-align: center;
+}
+h1
+{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #FD7F0B;
+}
+h2
+{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+}
+h3
+{
+	font-size: 12px;
+}
+.side_banner1 ul li
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+.side_banner2
+{
+	padding: 35px 165px;
+	width: 100%;
+	height: 530px;
+}
+.banner2_details
+{
+	position: absolute;
+    float: left;
+    width: 30%;
+    margin-top: 135px;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+.banner_img3
+{
+	position: relative;
+	float: right;
+	padding: 20px 350px 0px 50px;
+}
+.banner_img3 img
+{
+	height: 550px;
+}
+.side_banner3
+{
+	padding: 35px 165px;
+	width: 100%;
+	height: 530px;
+}
+.banner_head
+{
+	text-align: center;
+	height: 60px;
+    width: initial;
+    padding-top: 35px;
+}
+.page_footer
+{
+    background-color: #EEEEEE;
+    float: left;
+    height: 50px;
+    margin-top: 110px;
+    padding: 30px 100px;
+}
+.footer_left
+{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #605D65;
+	float: left;
+}
+.footer_left a
+{
+	margin-right: 30px;
+}
+.footer_right
+{
+	float: right;
+	text-align: center;
 }
